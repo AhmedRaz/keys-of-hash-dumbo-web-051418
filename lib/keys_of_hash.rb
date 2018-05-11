@@ -1,12 +1,10 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    animal_array=
-    animals.collect do |animal, country|
-      if arguments.include?(country)
-        animal
+    collect do |key, value|
+      if arguments.include?(value)
+        key
       end
     end
-    return animal_array
   end
 end
