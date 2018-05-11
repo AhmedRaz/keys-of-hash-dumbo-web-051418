@@ -7,5 +7,6 @@ class Hash
         animal
       end
     end
+    retun animal_array
   end
 end
